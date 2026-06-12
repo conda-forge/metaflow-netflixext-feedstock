@@ -1,5 +1,5 @@
 {% set name = "metaflow-netflixext" %}
-{% set version = "1.3.8" %}
+{% set version = "1.3.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 411f58c0fb3e8109c62f1aac5c56f902ad726130cb8ccf7eb9aae1a573be3b1b
+  sha256: f9344a8a1ed13f0536e11b693554721ebb45101150a9863ccb41d352daa2b516
 
 build:
   noarch: python
